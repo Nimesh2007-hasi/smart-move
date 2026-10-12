@@ -9,13 +9,23 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.12",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "lucide-react": "^1.53.0",
+    "mongodb": "^7.7.0",
     "next": "16.4.0",
+    "oracledb": "^7.0.1",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
+    "@types/bcrypt": "^6.0.0",
     "@types/node": "^20",
+    "@types/oracledb": "^7.0.3",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
