@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Smart Move Transport Solutions
+
+Smart Move is a transport management web application developed using **Next.js, TypeScript, Oracle Database, and MongoDB**.
+
+The system supports transport operations such as vehicle and driver management, route and trip management, ticket bookings, payments, maintenance records, passenger reviews, announcements, and trip media.
+
+## Technologies Used
+
+- **Frontend and application:** Next.js, React, TypeScript
+- **Relational database:** Oracle Database
+- **NoSQL database:** MongoDB
+- **Development tools:** Visual Studio Code, Git, and GitHub
+
+## Main Features
+
+- Dashboard and transport management
+- Vehicle, driver, and route management
+- Trip scheduling and passenger bookings
+- Ticket and payment management
+- Vehicle maintenance tracking
+- Passenger profiles and travel history
+- Passenger reviews and feedback
+- Announcements and trip media
+- Vehicle documents
+- Reports and summaries
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Install the following:
+
+- Node.js and npm
+- Oracle Database
+- MongoDB or a MongoDB Atlas account
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Nimesh2007-hasi/smart-move.git
+cd smart-move
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+### Environment Variables
+
+Create a `.env.local` file in the project root and configure the required Oracle and MongoDB connection settings.
+
+Use the environment variable names expected by the application, such as:
+
+```env
+ORACLE_USER=
+ORACLE_PASSWORD=
+ORACLE_CONNECT_STRING=
+MONGODB_URI=
+MONGODB_DB=smart_move_mongodb
+```
+
+**Security:** Never commit `.env.local`, database passwords, or connection credentials to GitHub.
+
+### Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Database Resources
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Database setup scripts, sample data, queries, procedures, and documentation can be found in the `database/` directory when included in the repository.
 
-## Learn More
+## Academic Project
 
-To learn more about Next.js, take a look at the following resources:
+Developed as part of the Data Management 2 coursework at the National Institute of Business Management (NIBM), Sri Lanka.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Next.js Resources
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Next.js Learn](https://nextjs.org/learn)
+- [MongoDB Documentation](https://www.mongodb.com/docs/)
+- [Oracle Database Documentation](https://docs.oracle.com/en/database/)
